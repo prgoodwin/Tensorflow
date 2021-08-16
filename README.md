@@ -35,6 +35,8 @@ Congratulations!  You've successfully started your Docker Container.
 
 # Other Useful Tricks
 
+Other commands...
+
 ## Finding your container's IP Address
 
 ```
