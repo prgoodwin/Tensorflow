@@ -32,3 +32,12 @@ In a webbrowser, navigate to 'localhost:8889'  and enter your token in the passw
 This brings you to the tensorflow tutorials section.
 
 Congratulations!  You've successfully started your Docker Container.
+
+# Other Useful Tricks
+
+## Finding your container's IP Address
+
+```
+docker inspect -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' container_name_or_id
+```
+
